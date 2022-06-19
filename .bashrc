@@ -118,13 +118,12 @@ fi
 
 # My stuff
 
-# Adds my folder for not typing .exe
-export PATH=/mnt/d/bash:$PATH
-
 # Chages color and text of prefix
 export PS1='\e[35;1m\u\e[0m:\e[34;1m\w \e[0m$ \e[36;1m'  
 
 # My path shortcuts
-export C=/mnt/c
-export D=/mnt/d
+export C=/mnt/c/
 export USR=/mnt/c/Users/user
+
+# Set my home to easier to access folder from non-WSL
+export HOME=/mnt/c/data/

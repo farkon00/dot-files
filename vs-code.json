@@ -18,7 +18,6 @@
     },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    "tabnine.experimentalAutoImports": true,
     "github.copilot.enable": {
         "*": true,
         "yaml": true,
@@ -46,6 +45,5 @@
     "hexeditor.columnWidth": 16,
     "hexeditor.showDecodedText": true,
     "hexeditor.defaultEndianness": "little",
-    "hexeditor.inspectorType": "aside",
-    "sync.gist": "a5dd93d1ddcefe98afe0b09af79aca54",
+    "hexeditor.inspectorType": "aside"
 }
