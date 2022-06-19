@@ -1,0 +1,51 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.defaultInterpreterPath": "D:/python310/python.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "launch": {
+        "configurations": [
+
+        ]
+    },
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "tabnine.experimentalAutoImports": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+    "editor.inlineSuggest.enabled": true,
+    "jake.autoDetect": "on",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.associations.files": [
+        {
+            "icon" : "binary",
+            "extensions" : [
+                ".bino"
+            ],
+            "filename" : false,
+            "format" : "svg",
+            "light" : false
+        }
+    ],
+    "files.defaultLanguage": "python",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Tokyo Night",
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "sync.gist": "a5dd93d1ddcefe98afe0b09af79aca54",
+}
