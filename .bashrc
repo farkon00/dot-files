@@ -127,3 +127,6 @@ export USR=/mnt/c/Users/user
 
 # Set my home to easier to access folder from non-WSL
 export HOME=/mnt/c/data/
+
+# PATH for git exlude alias
+export PATH=$PATH:/mnt/c/data/git_alias/
