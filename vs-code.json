@@ -6,7 +6,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "python.defaultInterpreterPath": "D:/python310/python.exe",
     "security.workspace.trust.untrustedFiles": "open",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
@@ -45,5 +44,5 @@
     "hexeditor.columnWidth": 16,
     "hexeditor.showDecodedText": true,
     "hexeditor.defaultEndianness": "little",
-    "hexeditor.inspectorType": "aside"
+    "hexeditor.inspectorType": "aside",
 }
