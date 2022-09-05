@@ -130,3 +130,11 @@ export HOME=/mnt/c/data/
 
 # PATH for git exlude alias
 export PATH=$PATH:/mnt/c/data/git_alias/
+
+# Npm just doesn't work
+alias npm="powershell.exe npm "
+alias tsc="powershell.exe node ./node_modules/typescript/bin/tsc "
+
+# There is no executable for old python versions for linux on python.org 
+alias python39=/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/python39.exe
+alias python38=/mnt/c/Users/user/AppData/Local/Programs/Python/Python38/python38.exe
