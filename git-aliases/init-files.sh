@@ -2,7 +2,7 @@ touch LICENSE
 touch README.md
 touch .gitignore
 
-# I have no idea how that works, thanks to stack overflow
+# I have bo idea how that works, thanks to stack overflow
 # But it should give name of current directory
 project=${PWD%%+(/)}         # trim however many trailing slashes exist
 project=${project##*/}       # remove everything before the last / that still remains
@@ -14,7 +14,7 @@ echo "# $project" > README.md
 # Write MIT license to LICENSE
 echo "MIT License" >> LICENSE
 echo "" >> LICENSE
-echo "Copyright (c) 2022 farkon00" >> LICENSE
+echo "Copyright (c) 2023 farkon00" >> LICENSE
 echo "" >> LICENSE
 echo "Permission is hereby granted, free of charge, to any person obtaining a copy" >> LICENSE
 echo "of this software and associated documentation files (the "Software"), to deal" >> LICENSE
