@@ -82,6 +82,7 @@ xkb_symbols "latin" {
     key <AC01>	{ [         a,          A,      aogonek,      Aogonek ]	};
     key <AC02>	{ [         s,          S,       scaron,       Scaron ]	};
     key <AC04>	{ [         f,          F,       U0300                ]	};
+    key <AC05>	{ [         g,          G,       gcaron,       Gcaron ] }; 
     key <AC06>	{ [         h,          H, rightsinglequotemark,U2022 ] }; // Grave accent
     key <AC07>	{ [         j,          J,        schwa,        SCHWA ]	};
     key <AC08>	{ [         k,          K,     ellipsis,  dead_stroke ]	}; 
