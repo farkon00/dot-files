@@ -15,7 +15,7 @@ xkb_symbols "unicode" {
     include "ua(winkeys)"
     name[Group1]= "Ukrainian";
 
-    key <TLDE> { [      Cyrillic_io,           Cyrillic_IO,          apostrophe,          U0301  ] };  // Apostrophe and Stress symbol
+    key <TLDE> { [      apostrophe,           U0301,    Cyrillic_io,         Cyrillic_IO  ] };  // Apostrophe and Stress symbol
     key <AE01> { [               1,          exclam,    onesuperior                       ] };
     key <AE02> { [               2,        quotedbl,    twosuperior,               U2019  ] };  // single quote used often as an apostrophe (deprecated)
     key <AE03> { [               3,      numerosign,        section,               U20B4  ] };  // Paragraph and Hryvnia sign
@@ -32,9 +32,9 @@ xkb_symbols "unicode" {
     key <AD03> { [      Cyrillic_u,      Cyrillic_U, Byelorussian_shortu, Byelorussian_SHORTU  ] };
     key <AD04> { [     Cyrillic_ka,     Cyrillic_KA,     registered                       ] };  // Registered tm
     key <AD05> { [     Cyrillic_ie,     Cyrillic_IE  ] };
-    key <AD12> { [    Cyrillic_hardsign,Cyrillic_HARDSIGN, Ukrainian_yi,    Ukrainian_YI  ] };
-    key <AC02> { [     Cyrillic_yeru,       Cyrillic_YERU, Ukrainian_i,     Ukrainian_I  ] };
-    key <AC11> { [     Cyrillic_e,          Cyrillic_E, Ukrainian_ie,    Ukrainian_IE  ] };
+    key <AD12> { [    Ukrainian_yi,    Ukrainian_YI, Cyrillic_hardsign, Cyrillic_HARDSIGN      ] };
+    key <AC02> { [     Ukrainian_i,     Ukrainian_I, Cyrillic_yeru,       Cyrillic_YERU  ] };
+    key <AC11> { [     Ukrainian_ie,    Ukrainian_IE,Cyrillic_e,          Cyrillic_E  ] };
 
     key <BKSL> { [ backslash,  bar, Ukrainian_ghe_with_upturn, Ukrainian_GHE_WITH_UPTURN  ] };
 
