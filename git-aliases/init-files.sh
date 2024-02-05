@@ -14,7 +14,7 @@ echo "# $project" > README.md
 # Write MIT license to LICENSE
 echo "MIT License" >> LICENSE
 echo "" >> LICENSE
-echo "Copyright (c) 2023 farkon00" >> LICENSE
+echo "Copyright (c) 2024 farkon00" >> LICENSE
 echo "" >> LICENSE
 echo "Permission is hereby granted, free of charge, to any person obtaining a copy" >> LICENSE
 echo "of this software and associated documentation files (the "Software"), to deal" >> LICENSE
