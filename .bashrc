@@ -30,7 +30,7 @@ unset rc
 
 # My stuff
 
-# Chages color and text of prefix
+# Chages color and text of the prefix
 export PS1='\e[35;1m\u\e[0m:\e[34;1m\w \e[0m$ \e[36;1m'
 
 # Windows access
@@ -40,3 +40,5 @@ export PATH=$PATH:~/data/git_alias/
 
 alias sqlite="/usr/bin/SQLiteStudio/sqlitestudio"
 alias nvidia="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
