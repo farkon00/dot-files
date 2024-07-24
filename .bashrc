@@ -12,10 +12,6 @@ then
 fi
 export PATH
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-
-# User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
 	for rc in ~/.bashrc.d/*; do
 		if [ -f "$rc" ]; then
@@ -24,13 +20,16 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
+# Autojump configuration
+[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
+
 unset rc
 
 [ -f "/home/farkon/.ghcup/env" ] && source "/home/farkon/.ghcup/env" # ghcup-env
 
 # My stuff
 
-# Chages color and text of the prefix
+# Chages color and text of prefix
 export PS1='\e[35;1m\u\e[0m:\e[34;1m\w \e[0m$ \e[36;1m'
 
 # Windows access
